@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 40px;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #555;
+}
+
+.contenedor {
+  margin-top: 50px;
+}
+
+.opcion {
+  width: 250px;
+  padding: 30px;
+  margin: 15px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 2px solid #333;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.opcion:hover {
+  transform: scale(1.05);
+}
+
+.banderas {
+  background-color: lightblue;
+}
+
+.abecedario {
+  background-color: lightyellow;
+}
+
+.numeros {
+  background-color: lightgreen;
+}
+
+.opcion h2 {
+  color: #222;
+}
+
+.opcion p {
+  font-size: 16px;
+}
