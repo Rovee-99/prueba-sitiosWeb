@@ -1,0 +1,24 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+div {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  display: inline-block;
+  border: 2px solid black;
+  line-height: 80px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.par {
+  background-color: lightgreen;
+}
+
+.impar {
+  background-color: lightcoral;
+}
