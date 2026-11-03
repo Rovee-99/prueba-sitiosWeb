@@ -1,0 +1,138 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  color: #333;
+}
+
+div {
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+  display: inline-block;
+  border: 1px solid #000;
+  vertical-align: top;
+  line-height: 200px;
+  font-weight: bold;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+/* Banderas originales */
+
+.colombia {
+  background-image: linear-gradient(
+    yellow 33%,
+    blue 33%,
+    blue 66.66%,
+    red 66.66%
+  );
+}
+
+.francia {
+  background-image: linear-gradient(
+    90deg,
+    blue 33%,
+    white 33%,
+    white 66.66%,
+    red 66.66%
+  );
+}
+
+.italia {
+  background-image: linear-gradient(
+    90deg,
+    green 33%,
+    white 33%,
+    white 66.66%,
+    red 66.66%
+  );
+}
+
+.alemania {
+  background-image: linear-gradient(
+    black 33%,
+    red 33%,
+    red 66.66%,
+    yellow 66.66%
+  );
+  color: white;
+}
+
+.japon {
+  background-image: radial-gradient(circle, red 33%, white 33%, white);
+}
+
+.polonia {
+  background-image: linear-gradient(white 50%, red 50%, red);
+}
+
+/* 6 banderas nuevas */
+
+/* Costa Rica: azul, blanco, rojo, blanco y azul */
+.costa-rica {
+  background-image: linear-gradient(
+    to bottom,
+    blue 16.66%,
+    white 16.66%,
+    white 33.33%,
+    red 33.33%,
+    red 66.66%,
+    white 66.66%,
+    white 83.33%,
+    blue 83.33%
+  );
+}
+
+/* España: rojo, amarillo y rojo */
+.espana {
+  background-image: linear-gradient(
+    to bottom,
+    red 25%,
+    yellow 25%,
+    yellow 75%,
+    red 75%
+  );
+}
+
+/* Argentina: celeste, blanco y celeste */
+.argentina {
+  background-image: linear-gradient(
+    to bottom,
+    #74acdf 33.33%,
+    white 33.33%,
+    white 66.66%,
+    #74acdf 66.66%
+  );
+}
+
+/* México: verde, blanco y rojo */
+.mexico {
+  background-image: linear-gradient(
+    to right,
+    #006847 33.33%,
+    white 33.33%,
+    white 66.66%,
+    #ce1126 66.66%
+  );
+}
+
+/* Países Bajos: rojo, blanco y azul */
+.paises-bajos {
+  background-image: linear-gradient(
+    to bottom,
+    #ae1c28 33.33%,
+    white 33.33%,
+    white 66.66%,
+    #21468b 66.66%
+  );
+}
+
+/* Ucrania: azul y amarillo */
+.ucrania {
+  background-image: linear-gradient(to bottom, #0057b7 50%, #ffd700 50%);
+}
